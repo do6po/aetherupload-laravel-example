@@ -1,3 +1,10 @@
+README
+------------
+
+This is an example of using the library [peinhu/AetherUpload-Laravel
+](https://github.com/peinhu/AetherUpload-Laravel).
+
+
 REQUIREMENTS
 ------------
 
