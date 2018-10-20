@@ -2,7 +2,7 @@
 
 return [
 
-    "ENABLE_EXAMPLE_PAGE" => true, # Страница пример
+    "ENABLE_EXAMPLE_PAGE" => false, # Страница пример
     "CHUNK_SIZE"          => 1 * 1000 * 1000, # Величина частей для разбивки файла
     "UPLOAD_PATH"         => storage_path() . DIRECTORY_SEPARATOR . "app" . DIRECTORY_SEPARATOR . "aetherupload", # каталог для загрузки
     "HEAD_DIR"            => "_head", # Имя каталога файла заголовка указателя, рекомендуется сохранить значение по умолчанию

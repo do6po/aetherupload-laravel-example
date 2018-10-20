@@ -10,7 +10,7 @@ INSTALLATION
 ### Install via git
 
 ```bash
-git git clone git clone https://github.com/do6po/big-file-uploader.git
+git git clone git clone https://github.com/do6po/aetherupload-laravel-example.git
 cd big-file-uploader
 ```
 
