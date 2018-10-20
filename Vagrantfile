@@ -51,7 +51,7 @@ Vagrant.configure(2) do |config|
   # network settings
   config.vm.network 'private_network', ip: options['ip']
 
-  # sync: folder 'noc' (host machine) -> folder '/app' (guest machine)
+  # sync: folder 'app' (host machine) -> folder '/app' (guest machine)
   config.vm.synced_folder './', '/app', owner: 'vagrant', group: 'vagrant'
 
   # disable folder '/vagrant' (guest machine)

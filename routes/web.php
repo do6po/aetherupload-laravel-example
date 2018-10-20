@@ -13,3 +13,6 @@
 
 Route::get('/', 'UploadController@index')->name('upload');
 
+Route::post('/preprocess', 'UploadController@preprocess');
+
+Route::post('/uploading', 'UploadController@saveChunk');

@@ -9,7 +9,9 @@
 namespace App\Http\Controllers;
 
 
-class UploadController extends Controller
+use AetherUpload\UploadHandler;
+
+class UploadController extends UploadHandler
 {
     public function index()
     {

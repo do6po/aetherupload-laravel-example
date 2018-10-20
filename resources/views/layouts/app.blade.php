@@ -15,27 +15,29 @@
 <body>
 <div class="container">
 
-        <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-            <h5 class="my-0 mr-md-auto font-weight-normal"> Uploader </h5>
-            <nav class="my-2 my-md-0 mr-md-3">
-                {{--<a class="p-2 text-dark" href="#">Features</a>--}}
-            </nav>
-            {{--<a class="btn btn-outline-primary" href="#">Sign up</a>--}}
-        </div>
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+        <h5 class="my-0 mr-md-auto font-weight-normal"> Uploader </h5>
+        <nav class="my-2 my-md-0 mr-md-3">
+            {{--<a class="p-2 text-dark" href="#">Features</a>--}}
+        </nav>
+        {{--<a class="btn btn-outline-primary" href="#">Sign up</a>--}}
+    </div>
 
-            <main role="main" class="col-12">
+    <main role="main" class="col-12">
 
-                @include('layouts._alert')
+        @include('layouts._alert')
 
-                @yield('content')
+        @yield('content')
 
-            </main>
-        </div>
+    </main>
+</div>
 
 @stack('modals')
 
 <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
-<script type="text/javascript" src="{{ asset('js/bootstrap.js') }}"></script>
+<script src="{{ asset('js/spark-md5.min.js') }}"></script>
+<script src="//cdn.bootcss.com/jquery/2.2.3/jquery.min.js"></script>
+<script src="{{ asset('js/aetherupload.js') }}"></script>
 
 @stack('scripts')
 

@@ -4,67 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e03b499cfd1c4f1f957012818f805a03",
+    "content-hash": "2d5dc54f97730caba2cc1e6ae433cecf",
     "packages": [
-        {
-            "name": "davejamesmiller/laravel-breadcrumbs",
-            "version": "5.1.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/davejamesmiller/laravel-breadcrumbs.git",
-                "reference": "f24853b97d9f973a9b936d2692f93b11924415e2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/davejamesmiller/laravel-breadcrumbs/zipball/f24853b97d9f973a9b936d2692f93b11924415e2",
-                "reference": "f24853b97d9f973a9b936d2692f93b11924415e2",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/support": "5.6.*|5.7.*",
-                "illuminate/view": "5.6.*|5.7.*",
-                "php": ">=7.1.3"
-            },
-            "require-dev": {
-                "laravel/framework": "5.6.*|5.7.*",
-                "orchestra/testbench": "3.6.*|3.7.*",
-                "php-coveralls/php-coveralls": "^1.0",
-                "phpunit/phpunit": "7.*"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "DaveJamesMiller\\Breadcrumbs\\BreadcrumbsServiceProvider"
-                    ],
-                    "aliases": {
-                        "Breadcrumbs": "DaveJamesMiller\\Breadcrumbs\\Facades\\Breadcrumbs"
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "DaveJamesMiller\\Breadcrumbs\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Dave James Miller",
-                    "email": "dave@davejamesmiller.com",
-                    "homepage": "https://davejamesmiller.com/"
-                }
-            ],
-            "description": "A simple Laravel-style way to create breadcrumbs.",
-            "homepage": "https://github.com/davejamesmiller/laravel-breadcrumbs",
-            "keywords": [
-                "laravel"
-            ],
-            "time": "2018-09-14T06:29:58+00:00"
-        },
         {
             "name": "dnoegel/php-xdg-base-dir",
             "version": "0.1",
@@ -1365,57 +1306,57 @@
             "time": "2018-03-15T14:45:10+00:00"
         },
         {
-            "name": "pion/laravel-chunk-upload",
-            "version": "v1.2.8",
+            "name": "peinhu/aetherupload-laravel",
+            "version": "v1.0.7",
             "source": {
                 "type": "git",
-                "url": "https://github.com/pionl/laravel-chunk-upload.git",
-                "reference": "f556e3e7b94001b7fc76f9688a080b864c908cf6"
+                "url": "https://github.com/peinhu/AetherUpload-Laravel.git",
+                "reference": "5bd6a076d8c892b15984e04c36af718dc48d1873"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pionl/laravel-chunk-upload/zipball/f556e3e7b94001b7fc76f9688a080b864c908cf6",
-                "reference": "f556e3e7b94001b7fc76f9688a080b864c908cf6",
+                "url": "https://api.github.com/repos/peinhu/AetherUpload-Laravel/zipball/5bd6a076d8c892b15984e04c36af718dc48d1873",
+                "reference": "5bd6a076d8c892b15984e04c36af718dc48d1873",
                 "shasum": ""
             },
             "require": {
-                "illuminate/console": "5.1.* || 5.2.* || 5.3.* || 5.4.* || 5.5.* || 5.6.* || 5.7.*",
-                "illuminate/filesystem": "5.1.* || 5.2.* || 5.3.* || 5.4.* || 5.5.* || 5.6.* || 5.7.*",
-                "illuminate/http": "5.1.* || 5.2.* || 5.3.* || 5.4.* || 5.5.* || 5.6.* || 5.7.*",
-                "illuminate/support": "5.1.* || 5.2.* || 5.3.* || 5.4.* || 5.5.* || 5.6.* || 5.7.*"
+                "php": ">=5.5.9"
             },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.12",
-                "laravel/laravel": "5.1.* || 5.2.* || 5.3.* || 5.4.* || 5.5.* || 5.6.* || 5.7.*",
-                "mockery/mockery": "^1.1.0",
-                "overtrue/phplint": "^1.1",
-                "phpunit/phpunit": "5.7 || 6.0 || 7.0"
+            "suggest": {
+                "predis/predis": "Needed to support instant completion"
             },
             "type": "library",
             "extra": {
                 "laravel": {
                     "providers": [
-                        "Pion\\Laravel\\ChunkUpload\\Providers\\ChunkUploadServiceProvider"
+                        "AetherUpload\\AetherUploadServiceProvider"
                     ]
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "Pion\\Laravel\\ChunkUpload\\": "src/"
+                    "AetherUpload\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "MIT"
+                "GPL-2.0"
             ],
             "authors": [
                 {
-                    "name": "Martin Kluska",
-                    "email": "martin@kluska.cz"
+                    "name": "Payne Hu",
+                    "email": "huyang110yahoo@gmail.com",
+                    "homepage": "http://www.2ndrenais.com",
+                    "role": "Manager"
                 }
             ],
-            "description": "Service for chunked upload with several js providers",
-            "time": "2018-09-11T09:26:38+00:00"
+            "description": "Upload large files for Laravel 上传 大文件 laravel包",
+            "keywords": [
+                "big",
+                "large",
+                "大文件"
+            ],
+            "time": "2017-12-14T08:05:03+00:00"
         },
         {
             "name": "predis/predis",
