@@ -36,5 +36,10 @@ php artisan migrate:refresh
 info "Apply migrations"
 php artisan migrate:refresh --env=testing
 
+mkdir storage/app/aetherupload
+mkdir storage/app/aetherupload/_head
+mkdir storage/app/aetherupload/file
+chmod -R 755 storage/app/aetherupload
+
 info "Enabling colorized prompt for guest console"
 sed -i "s/#force_color_prompt=yes/force_color_prompt=yes/" /home/vagrant/.bashrc
